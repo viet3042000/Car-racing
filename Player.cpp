@@ -1,7 +1,7 @@
 #include "Player.h"
 using namespace sf;
 
-Player::Player(RenderWindow* window) : m_countHeart(1)//số mạng
+Player::Player(RenderWindow* window) : m_countHeart(2)//số mạng
 {
     this->m_window = window;
 
