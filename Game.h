@@ -18,6 +18,8 @@ private:
     Texture m_texture_threat_1;
     Texture m_texture_threat_2;
     Texture m_texture_threat_3;
+    Texture m_texture_threat_4;
+
     Texture m_texture_road;
     Texture m_texture_heart;
     Texture m_texture_explosion;
