@@ -14,6 +14,7 @@ Game::Game(RenderWindow* window) : m_score(0)//0 là số điểm lúc xuất ph
     this->m_texture_threat_1.loadFromFile("Car_1.png");
     this->m_texture_threat_2.loadFromFile("Car_2.png");
     this->m_texture_threat_3.loadFromFile("Car_3.png");
+    this->m_texture_threat_4.loadFronFile("Bomb.png")
 
     this->m_texture_explosion.loadFromFile("Explosion.png");
 
@@ -126,6 +127,8 @@ bool Game::update()
         case 2:
             this->m_threat.push_back(Threat(this->m_window, this->m_texture_threat_3));
             break;
+        case 3:
+            this-> m_threat.push_back(Threat(this->m_window.this->m_texture_threat_4));
 
         }
         this->m_clock.restart();
